@@ -1,0 +1,48 @@
+html, body{
+	display: flex;
+	min-height:100%;
+	min-width:100%;
+	margin: 0px;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+.register-form-container{
+	background-color: white;
+	border: 1px solid lightgrey;
+	width: 450px;
+	padding: 20px;
+	margin: auto;
+	display: inline-block;
+	border-radius: 15px;
+}
+
+.register-form label{
+	margin: 0px;
+}
+
+.top-title{
+	padding-bottom:20px;
+	display: flex;
+}
+
+.register-back{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 25px;	
+}
+
+.register-title{
+	margin:auto;
+	font-size: 35px;
+}
+
+#reg-button{
+	width: 100%;
+}
+
+.login-form{
+	text-align: center;
+}

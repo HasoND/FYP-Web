@@ -1,0 +1,95 @@
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: lightsteelblue;
+}
+
+html, body{
+	margin: 0px;
+}
+
+.navbar{
+	justify-content: normal;
+}
+
+.search-bar{
+	margin-left: 15px;
+}
+
+.search-input{
+	width: 400px;
+}
+
+.current-day-time{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.current-day-time #time{
+	margin-right: 15px;
+}
+
+
+
+.profile-container{
+	display: flex;
+	flex: 1;
+}
+
+.profile{
+	display: flex;
+	margin: auto;
+	padding: 15px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: lightgrey;
+}
+
+.avatar{
+	display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 20px;
+    justify-content: space-between;
+    margin-right: 15px;
+}
+
+.avatar-submit{
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.avatar-tittle{
+	font-size: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+.personal-information-tittle{
+	font-size: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+.personal-information-container{
+	padding: 20px;
+	width: 60vh;
+	border: 1px solid black;
+}
+
+.form-group{
+	margin-bottom: 0.3rem;
+}
+
+.form-group label, .form-control input[type=text]{
+	width: 100%;
+}
+
+.submit-container{
+	display: flex;
+    flex-direction: row-reverse;
+}
